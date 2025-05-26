@@ -1,4 +1,4 @@
-public class Persona {
+public  abstract class Persona {
 private Integer id;
 private String Nombre;
 private String Apellidos;
@@ -46,13 +46,11 @@ public void setEdad(Integer edad) {
     Edad = edad;
 }
 
-public void Concentrarse() {
-        System.out.println("concentrandose... ");
-    }
+public abstract void Concentrarse();
+    
 
-    public void Viajar() {
-        System.out.println("viajando... ");
-    }
+    public abstract void Viajar();
+       
 
 
 }
